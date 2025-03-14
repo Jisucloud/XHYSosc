@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250313,
-  "VersionName": "250313",
-  "UploadTime": "2025-03-13 20:17:25",
-  "ModifyContent": "1: Update Constants.java\n",
+  "VersionCode": 250314,
+  "VersionName": "250314",
+  "UploadTime": "2025-03-14 14:39:13",
+  "ModifyContent": "",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYS/XHYS-armeabi-generic.apk",
-  "ApkSize": 28448,
-  "ApkMd5": "b6e734affc0199466478446c199d0077"
+  "ApkSize": 28450,
+  "ApkMd5": "51a89d449f5775e27d7a75879c3c91db"
 }
