@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250308,
-  "VersionName": "250308",
-  "UploadTime": "2025-03-11 07:59:04",
-  "ModifyContent": "1: # Conflicts:\n2: #	app/src/main/res/values/strings.xml\n3: 当前选中直播加载错误时自动切换到下一个\n4: 修直播频道列表定时隐藏bug\n5: 修改进度条样式\n6: 点播增加屏显开关\n7: 直播支持传递ua参数\n8: 直播支持回看\n9: 优化jar加载;\n",
+  "VersionCode": 250304,
+  "VersionName": "250304",
+  "UploadTime": "2025-03-14 16:16:48",
+  "ModifyContent": "1: 添加网络背景图\n2: 修复已知BUG\n",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV.apk",
-  "ApkSize": 19004,
-  "ApkMd5": "95cec3008ebf542c364e6a5e7c926366"
+  "ApkSize": 19006,
+  "ApkMd5": "e579c19f1a3b6bd544cd8b542339c128"
 }
