@@ -26,7 +26,7 @@ This repo relies on the following third-party projects:
 - [xisohi/XHYSTV](https://github.com/xisohi/XHYSTV) (Updated: a3f3c32bdf0cb2c7d233c0c636832b7d6dc91d20)
 - [xisohi/XHYS](https://github.com/xisohi/XHYS) (Updated: 301d50fc937fd2c35fc029103d19484dbd4caa7b)
 - [xisohi/XHTV/tree/lkys](https://github.com/xisohi/XHTV/tree/lkys) (Updated: 25c220f1acfc6d00cde79d6ac1018652d0b937e0)
-- [xisohi/XHTV/tree/fongmi](https://github.com/xisohi/XHTV/tree/fongmi) (Updated: a1b396258dd9e99c45501d868a7e37f8d7932db5)
+- [xisohi/XHTV/tree/fongmi](https://github.com/xisohi/XHTV/tree/fongmi) (Updated: ceed16790cfe33586b4fdc7984c0643c621c5c2d)
 - [xisohi/XHTV/tree/release](https://github.com/xisohi/XHTV/tree/release) (Updated: 8527532a9cca4092bd996a8103f6fc7dbd6e2737)
 - [xisohi/XHTV/tree/kitkat](https://github.com/xisohi/XHTV/tree/kitkat) (Updated: 173644e483a4df89e0be04e68c9abd85fd0ddb79)
 - [xisohi/CatPawOpen/tree/main](https://github.com/xisohi/CatPawOpen/tree/main) (Updated: c41c0c9614ef84f215fa5ba103fb919886c629d6)

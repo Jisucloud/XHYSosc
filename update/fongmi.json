@@ -1,6 +1,6 @@
 {
-  "code": "326",
-  "name": "3.2.6",
-  "desc": "1: Update build.gradle\n2: Add p2p back\n3: Clean code\n4: Update gradle.properties\n5: Update build.gradle\n6: Fix epg endTime check\n7: Add forceKey for drm\n",
+  "code": "328",
+  "name": "3.2.8",
+  "desc": "1: Update build.gradle\n2: Clean code\n3: No restriction on t4 using post or get\n4: Fix jar recent bug\n5: Clean sniffer\n6: Add timeout for danmaku\n7: Fix recent jar\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
