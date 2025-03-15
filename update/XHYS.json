@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250304,
   "VersionName": "250304",
-  "UploadTime": "2025-03-15 19:19:58",
+  "UploadTime": "2025-03-15 20:39:26",
   "ModifyContent": "",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYS/XHYS-armeabi-generic.apk",
-  "ApkSize": 28450,
-  "ApkMd5": "9f338575fd7d5d7f7a2967a30cac0700"
+  "ApkSize": 28451,
+  "ApkMd5": "4169908f054542850f327e4c96eea33d"
 }
