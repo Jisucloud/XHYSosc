@@ -1,6 +1,6 @@
 {
-  "code": "329",
-  "name": "3.2.9",
-  "desc": "1: update\n2: Update build.gradle\n3: Fix dlna\n",
+  "code": "331",
+  "name": "3.3.1",
+  "desc": "1: Fix cast bug\n2: Update build.gradle\n3: Fix bug\n4: Set glide log level to error\n5: Fix crash\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
