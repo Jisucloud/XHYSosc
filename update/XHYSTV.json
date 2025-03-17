@@ -5,7 +5,7 @@
   "VersionCode": 250305,
   "VersionName": "250305",
   "UploadTime": "2025-03-17 13:16:55",
-  "ModifyContent": "1: 解决代码漏提导致的部分详情闪退;\n2: 修搜索bug by 670637080\n3: fix live channel bug;\n4: 解决直播tv端选中播放焦点丢失的问题;\n5: 遥控器没有菜单按键时可长按确定键弹出直播菜单;\n6: 修正从后台返回继续播放时黑屏的bug;\n7: fix live bug;\n8: fix bug;\n9: Revert "fix 集数大于1就显示倒序;"\n10: This reverts commit a977cf6efb790ecc53f6326654460444954eb03d.\n11: fix 集数大于1就显示倒序;\n12: 详情页倒序按钮下移;\n13: 详情页新增简介按钮弹窗;\n14: fix bug;\n15: 优化主页推荐加载\n16: 首页焦点默认定位到主页\n17: Update BaseActivity.java\n18: 修复已知BUG\n19: 历史记录保留非当前配置源;\n20: fix bug\n21: 数据备份可删除\n22: 优化指定搜索源逻辑;\n23: fix live bug;\n24: 仅供逻辑参考\n",
+  "ModifyContent": "1: 解决代码漏提导致的部分详情闪退;\n2: 修搜索bug by 670637080\n3: fix live channel bug;\n4: 解决直播tv端选中播放焦点丢失的问题;\n5: 遥控器没有菜单按键时可长按确定键弹出直播菜单;\n6: 修正从后台返回继续播放时黑屏的bug;\n7: fix live bug;\n8: fix bug;\n9: Revert fix 集数大于1就显示倒序;\n10: This reverts commit a977cf6efb790ecc53f6326654460444954eb03d.\n11: fix 集数大于1就显示倒序;\n12: 详情页倒序按钮下移;\n13: 详情页新增简介按钮弹窗;\n14: fix bug;\n15: 优化主页推荐加载\n16: 首页焦点默认定位到主页\n17: Update BaseActivity.java\n18: 修复已知BUG\n19: 历史记录保留非当前配置源;\n20: fix bug\n21: 数据备份可删除\n22: 优化指定搜索源逻辑;\n23: fix live bug;\n24: 仅供逻辑参考\n",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV.apk",
   "ApkSize": 19009,
   "ApkMd5": "60a346b57177b64b73a3bafad32de771"
