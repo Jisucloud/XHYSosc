@@ -1,6 +1,6 @@
 {
-  "code": "323",
-  "name": "3.2.3",
-  "desc": "1: Update Updater.java\n",
+  "code": "330",
+  "name": "3.3.0",
+  "desc": "1: Update build.gradle\n2: Fix bug\n3: Set glide log level to error\n4: Fix crash\n5: Fix dlna\n6: Clean code\n7: No restriction on t4 using post or get\n8: Fix jar recent bug\n9: Clean sniffer\n10: Add timeout for danmaku\n11: Fix recent jar\n12: Add p2p back\n13: Clean code\n14: Update gradle.properties\n15: Update build.gradle\n16: Fix epg endTime check\n17: Add forceKey for drm\n18: Support drm header\n19: Optimize restore and backup\n20: Fix crash\n21: Revert js content\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
