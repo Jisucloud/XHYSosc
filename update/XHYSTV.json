@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250305,
   "VersionName": "250305",
-  "UploadTime": "2025-03-17 18:49:23",
+  "UploadTime": "2025-03-17 19:28:37",
   "ModifyContent": "1: 添加内置直播地址\n",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV.apk",
   "ApkSize": 19009,
-  "ApkMd5": "e1e8b1bc096902593341215965699507"
+  "ApkMd5": "593348e0685681c81215cb086398917d"
 }
