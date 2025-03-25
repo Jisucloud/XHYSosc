@@ -1,7 +1,6 @@
 {
 	"spider": "./jar/fm.jar;md5;98e25197fce4b874343de7d40011de1d",
 	"wallpaper": "http://lcjly.cn/tupian",
-
 	"sites": [
 		{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_即看影视","name": "即看影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/即看影视.js","searchable": 1,"quickSearch": 0,"filterable": 1},
@@ -220,7 +219,7 @@
 		{"key": "hipy_顶点小说2[书]","name": "顶点小说2[书]","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/顶点小说2[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_飞翔鸟[书]","name": "飞翔鸟[书]","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/飞翔鸟[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 
-		{"key": "drpy_js_小品网","name": "小品网","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"http://drpy.lcjly.cn/js/小品网.js","searchable": 2,"quickSearch": 0,"filterable": 0}
+		{"key": "drpy_js_小品网","name": "小品网","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"http://drpy.lcjly.cn/js/小品网.js","searchable": 2,"quickSearch": 0,"filterable": 1}
 	],
     "parses": [
 		{"name":"🌐Ⓤ","type":0,"url":"","header":{"User-Agent":"Mozilla/5.0"}},
@@ -250,6 +249,13 @@
 		{"name": "BL","type": 0,"url": "https://vip.bljiex.com/?v=","ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"]} },
 		{"name": "全民","type": 0,"url": "http://api.wpsseo.cn/?v=","ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"]} },
 		{"name": "777","type": 0,"url": "https://jx.777jiexi.com/player/?url=","ext": {"flag": ["qq", "腾讯", "qiyi", "爱奇艺", "奇艺", "youku", "优酷", "mgtv", "芒果", "letv", "乐视", "pptv", "PPTV", "sohu", "bilibili", "哔哩哔哩", "哔哩"]}}
+	],
+	"hosts": [
+		"cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+		"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+		"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+		"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+		"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
 	],
     "lives":[{"name":"live","type":0,"url":"https://xhys.lcjly.cn/live.txt","playerType":1,"epg":"https://epg.erw.cc/api/diyp/?ch={name}&date={date}","logo":"https://chinaiptv.pages.dev/logo/{name}.png"}],
     "doh":[{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
