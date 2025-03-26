@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250305,
   "VersionName": "250305",
-  "UploadTime": "2025-03-17 19:28:37",
-  "ModifyContent": "1: 添加内置直播地址\n",
+  "UploadTime": "2025-03-26 07:51:48",
+  "ModifyContent": "1: 尝试兼容py直播(初版)\n2: 完善python缓存;\n3: 兼容t3 py;\n4: 提升用户体验\n5: 识别jarCache\n6: 示例: {"spider":"./spider.jar","jarCache":"false"}\n7: 方便调试的时候关闭缓存\n8: 内置超级解析;\n9: 长时间未手动清理过jar缓存将自动清理(自带md5除外);\n10: 常驻jar缓存,可手动清理(自带md5无需清理);\n11: fix t4;\n12: 搜索小调;\n13: 去除jar加载时的冗余逻辑;\n14: fix last commit\n15: 遥控长按上键倍速播放;\n16: 尝试适配“王二小放牛娃”\n17: 优化完善嗅探click点击事件\n18: 优化自动切换播放器的时机;\n19: 兼容type3类型的需要独立jar支持的直播;\n20: 优化多jar及jar缓存命中的逻辑;\n21: 兼容无jar的纯采集json配置;\n22: fix jar;\n23: Update test.yml\n24: Update README.md\n25: Create README.md\n26: ;\n27: fix;\n28: 优化首页加载时间;\n29: 完美版,以后更新随缘;\n30: 更改拼音联想接口\n31: 优化详情简介样式\n32: 首页站点推荐补全\n33: fix详情光标bug;\n",
   "DownloadUrl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV.apk",
-  "ApkSize": 19009,
-  "ApkMd5": "593348e0685681c81215cb086398917d"
+  "ApkSize": 30323,
+  "ApkMd5": "797a6de7f4351889c6b7eea31aec084d"
 }
