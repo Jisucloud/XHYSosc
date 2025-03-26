@@ -1,6 +1,6 @@
 {
-  "code": "333",
-  "name": "3.3.3",
-  "desc": "1: Support expand director\n2: Update build.gradle\n3: Fix crash\n",
+  "code": "334",
+  "name": "3.3.4",
+  "desc": "1: Fix bug\n2: Clean code\n3: Update build.gradle\n4: Fix python proxy with header\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
