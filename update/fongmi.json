@@ -1,6 +1,6 @@
 {
-  "code": "334",
-  "name": "3.3.4",
-  "desc": "1: Fix bug\n2: Clean code\n3: Update build.gradle\n4: Fix python proxy with header\n",
+  "code": "335",
+  "name": "3.3.5",
+  "desc": "1: Update build.gradle\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
