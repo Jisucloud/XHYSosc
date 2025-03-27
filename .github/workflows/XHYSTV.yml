@@ -115,6 +115,7 @@ jobs:
           mkdir -p apk/
           for file in `find ~ -name "*normal*.apk" -print`; do
             mv "$file" apk/${{ matrix.repoName }}-normal.apk
+          done
           for file in `find ~ -name "*python*.apk" -print`; do
             mv "$file" apk/${{ matrix.repoName }}-python.apk
           done
