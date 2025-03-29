@@ -1,6 +1,6 @@
 {
-  "code": "330",
-  "name": "3.3.0",
-  "desc": "1: Update build.gradle\n2: Fix bug\n3: Set glide log level to error\n4: Fix crash\n5: Fix dlna\n6: Clean code\n7: No restriction on t4 using post or get\n8: Fix jar recent bug\n9: Clean sniffer\n10: Add timeout for danmaku\n11: Fix recent jar\n12: Add p2p back\n13: Clean code\n14: Update gradle.properties\n15: Update build.gradle\n16: Fix epg endTime check\n17: Add forceKey for drm\n18: Support drm header\n19: Optimize restore and backup\n20: Fix crash\n21: Revert js content\n",
+  "code": "337",
+  "name": "3.3.7",
+  "desc": "1: Fix build\n2: Update build.gradle\n3: Use static id\n4: Fix track dialog ui\n5: Add libass - part 4\n6: Add libass - part 3\n7: Add libass - part 2\n8: Add libass\n9: Fix build\n10: Revert "Remove mipmap-anydpi"\n11: This reverts commit d97fa89cc468f2ae9efff78d5f65dc36e39f12f4.\n12: Clean code\n13: Remove mdpi\n14: Remove mipmap-anydpi\n15: Fix bug\n16: Fix python proxy with header\n17: Support expand director\n18: Fix crash\n19: Fix cast bug\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
