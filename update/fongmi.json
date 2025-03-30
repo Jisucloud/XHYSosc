@@ -1,6 +1,6 @@
 {
-  "code": "335",
-  "name": "3.3.5",
-  "desc": "1: Update build.gradle\n",
+  "code": "342",
+  "name": "3.4.2",
+  "desc": "1: Update build.gradle\n2: Fix bug\n3: Update README.md\n4: Update build.gradle\n5: Support hide site\n6: Fix screen width and height bug\n7: Fix bug\n8: Clean code\n9: Fix video size when use libass\n10: # Conflicts:\n11: #	app/src/main/java/com/fongmi/android/tv/player/exo/TrackNameProvider.java\n12: Use static id\n13: Fix track dialog ui\n14: Add libass - part 4\n15: Add libass - part 3\n16: Add libass - part 2\n17: Add libass\n18: Fix build\n19: Revert "Remove mipmap-anydpi"\n20: This reverts commit d97fa89cc468f2ae9efff78d5f65dc36e39f12f4.\n21: Remove mdpi\n22: Remove mipmap-anydpi\n23: Fix bug\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
