@@ -1,6 +1,6 @@
 {
-  "code": "335",
-  "name": "3.3.5",
-  "desc": "1: Update build.gradle\n",
+  "code": "344",
+  "name": "3.4.4",
+  "desc": "1: Update build.gradle\n2: Fix again\n3: Add checkOrientation to home\n4: Fix bug\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
