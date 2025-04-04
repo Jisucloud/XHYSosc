@@ -59,9 +59,9 @@ jobs:
         if: ${{ env.commit }}
         working-directory: XHYSosc
         run: |
-          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
-          echo "versionName=$(grep -oP 'versionName \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
-          
+          echo "VersionCode=$(grep -oP 'versionCode = \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
+          echo "versionName=$(grep -oP 'versionName = \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
+
       - name: Compress Source Code
         if: ${{ env.commit }}
         working-directory: XHYSosc
