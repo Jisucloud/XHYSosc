@@ -55,6 +55,13 @@ jobs:
           git checkout ${{ env.commit }}
           echo "tag=$(git log --date=format:'%y%m%d%H' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
 
+      - name: Build Upgrade content
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
+          echo "versionName=$(grep -oP 'versionName \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
+          
       - name: Compress Source Code
         if: ${{ env.commit }}
         working-directory: XHYSosc
@@ -128,14 +135,6 @@ jobs:
             git log --pretty=format:%B ${{ env.commitS }}...${lastCommit:0:7} |sed -e "s# \{2,\}#\n#g" -e "/^Merge \(pull\|branch\|remote\)/d" -e '/^$/d' |cat -n |sort -k2,2 -k1,1n |uniq -f1 |sort -k1,1n |cut -f2- >> apk/${{ matrix.repoName }}-Release.log
           fi
           echo -e '\n```' >> apk/${{ matrix.repoName }}-Release.log
-
-      - name: Build Upgrade content
-        if: ${{ env.commit }}
-        working-directory: XHYSosc
-        run: |
-          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
-          echo "versionName=$(grep -oP 'versionName \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
-          echo "release_notes=$(awk 'BEGIN{ORS="\\\\n"}{print NR ": " $0}' apk/${{ matrix.repoName }}.log)" >> $GITHUB_ENV
 
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
