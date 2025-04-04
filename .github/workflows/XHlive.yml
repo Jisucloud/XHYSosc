@@ -69,14 +69,14 @@ jobs:
           distribution: 'temurin'
           cache: 'gradle'
 
-      - name: Set versionCode and versionName
-        if: ${{ env.commit }}
-        working-directory: XHYSosc
-        run: |
+        #      - name: Set versionCode and versionName
+        #        if: ${{ env.commit }}
+        #        working-directory: XHYSosc
+          #        run: |
           # 设置 versionCode
-          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle.kts
+          #          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle.kts
           # 设置 versionName
-          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle.kts
+      #          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle.kts
 
       - name: Build project
         if: ${{ env.commit }}
@@ -119,6 +119,7 @@ jobs:
         if: ${{ env.commit }}
         working-directory: XHYSosc
         run: |
+          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
           lastCommit=$(grep "${{ matrix.userName }}\/${{ matrix.repoName }}" ${{ github.workspace }}/README.md |grep -o '[a-z0-9]\{40\}')
           export LESSCHARSET=utf-8
           echo -e "Credit: [${{ matrix.userName }}/${{ matrix.repoName }}](${{ env.upStream }})\nCommit: ${{ env.commit }}\nChangelog:\n\`\`\`" > apk/${{ matrix.repoName }}-Release.log
@@ -153,8 +154,10 @@ jobs:
           git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git pull --rebase
           sed -i "/${{ matrix.userName }}\/${{ matrix.repoName }}/s#Updated: [a-zA-Z0-9]*#Updated: ${{ env.commit }}#" README.md
-          sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.tag }}/' update/${{ matrix.repoName }}.json
-          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.tag }}"/' update/${{ matrix.repoName }}.json
+          sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.VersionCode }}/' update/${{ matrix.repoName }}.json
+          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.VersionCode }}"/' update/${{ matrix.repoName }}.json
+          #sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.tag }}/' update/${{ matrix.repoName }}.json
+          #sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.tag }}"/' update/${{ matrix.repoName }}.json
           git add --all
           git commit -m "${{ env.commit }}"
           git push -u -f origin master
