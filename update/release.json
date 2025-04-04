@@ -1,6 +1,6 @@
 {
-  "code": "253",
-  "name": "2.5.3",
-  "desc": "1: Update Updater.java\n2: 删除多余代码\n",
+  "code": "263",
+  "name": "2.6.3",
+  "desc": "1: Update build.gradle\n2: 清明时节雨纷纷\n3: 路上行人欲断魂\n4: 借问酒家何处有\n5: 牧童遥指杏花村\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/release/{name}"
 }
