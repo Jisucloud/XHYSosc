@@ -26,7 +26,7 @@ jobs:
         include:
           - userName: xisohi
             repoName: XHlive
-            branchName: mainB
+            branchName: main
 
     steps:
       - name: Checkout code
