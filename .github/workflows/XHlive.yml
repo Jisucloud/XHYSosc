@@ -119,7 +119,6 @@ jobs:
         if: ${{ env.commit }}
         working-directory: XHYSosc
         run: |
-          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
           lastCommit=$(grep "${{ matrix.userName }}\/${{ matrix.repoName }}" ${{ github.workspace }}/README.md |grep -o '[a-z0-9]\{40\}')
           export LESSCHARSET=utf-8
           echo -e "Credit: [${{ matrix.userName }}/${{ matrix.repoName }}](${{ env.upStream }})\nCommit: ${{ env.commit }}\nChangelog:\n\`\`\`" > apk/${{ matrix.repoName }}-Release.log
@@ -129,6 +128,14 @@ jobs:
             git log --pretty=format:%B ${{ env.commitS }}...${lastCommit:0:7} |sed -e "s# \{2,\}#\n#g" -e "/^Merge \(pull\|branch\|remote\)/d" -e '/^$/d' |cat -n |sort -k2,2 -k1,1n |uniq -f1 |sort -k1,1n |cut -f2- >> apk/${{ matrix.repoName }}-Release.log
           fi
           echo -e '\n```' >> apk/${{ matrix.repoName }}-Release.log
+
+      - name: Build Upgrade content
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
+          echo "versionName=$(grep -oP 'versionName \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
+          echo "release_notes=$(awk 'BEGIN{ORS="\\\\n"}{print NR ": " $0}' apk/${{ matrix.repoName }}.log)" >> $GITHUB_ENV
 
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
@@ -155,7 +162,7 @@ jobs:
           git pull --rebase
           sed -i "/${{ matrix.userName }}\/${{ matrix.repoName }}/s#Updated: [a-zA-Z0-9]*#Updated: ${{ env.commit }}#" README.md
           sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.VersionCode }}/' update/${{ matrix.repoName }}.json
-          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.VersionCode }}"/' update/${{ matrix.repoName }}.json
+          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.versionName }}"/' update/${{ matrix.repoName }}.json
           #sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.tag }}/' update/${{ matrix.repoName }}.json
           #sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.tag }}"/' update/${{ matrix.repoName }}.json
           git add --all
