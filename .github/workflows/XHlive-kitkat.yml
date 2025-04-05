@@ -1,4 +1,4 @@
-name: XHlive0
+name: XHlive-kitkat
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
         include:
           - userName: xisohi
             repoName: XHlive
-            branchName: main
+            branchName: kitkat
 
     steps:
       - name: Checkout code
@@ -152,9 +152,9 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote set-url --add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git pull --rebase
-          sed -i "/${{ matrix.userName }}\/${{ matrix.repoName }}/s#Updated: [a-zA-Z0-9]*#Updated: ${{ env.commit }}#" README.md
-          sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.tag }}/' update/${{ matrix.repoName }}.json
-          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.tag }}"/' update/${{ matrix.repoName }}.json
+          sed -i "/${{ matrix.userName }}\/${{ matrix.repoName }}\/tree\/${{ matrix.branchName }}/s#Updated: [a-zA-Z0-9]*#Updated: ${{ env.commit }}#" README.md
+          sed -i 's/"version_code": [a-zA-Z0-9]*/"version_code": ${{ env.tag }}/' update/${{ matrix.repoName }}-${{ matrix.branchName }}.json
+          sed -i 's/"version_name": "[^"]*"/"version_name": "${{ env.tag }}"/' update/${{ matrix.repoName }}-${{ matrix.branchName }}.json
           git add --all
           git commit -m "${{ env.commit }}"
           git push -u -f origin master
