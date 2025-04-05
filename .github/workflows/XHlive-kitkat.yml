@@ -108,7 +108,7 @@ jobs:
             if [[ "$base" == release-* ]]; then
               new_base=$(echo "$base" | sed "s/release/${{ matrix.repoName }}/")
             else
-              new_base="${{ matrix.repoName }}.apk"
+              new_base="${{ matrix.repoName }}-${{ matrix.branchName }}.apk"
             fi
             # 移动并重命名文件
             mv "$file" "apk/$new_base"
@@ -134,7 +134,7 @@ jobs:
         if: ${{ env.commit }}
         with:
           name: ${{ matrix.repoName }}
-          tag: ${{ matrix.repoName }}
+          tag: ${{ matrix.repoName }}-${{ matrix.branchName }}
           bodyFile: XHYSosc/apk/${{ matrix.repoName }}-Release.log
           allowUpdates: true
           removeArtifacts: true
