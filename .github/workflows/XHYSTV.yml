@@ -137,8 +137,8 @@ jobs:
         run: |
           rm -rf apk/
           mkdir -p apk/
-          for file in `find ~ -name "*normal*.apk" -print`; do
-            mv "$file" apk/${{ matrix.repoName }}-normal.apk
+          for file in `find ~ -name "*java*.apk" -print`; do
+            mv "$file" apk/${{ matrix.repoName }}-java.apk
           done
           for file in `find ~ -name "*python*.apk" -print`; do
             mv "$file" apk/${{ matrix.repoName }}-python.apk
@@ -185,8 +185,8 @@ jobs:
           echo "VersionCode=$(grep -oP 'versionCode \K\d+' app/build.gradle)" >> $GITHUB_ENV
           echo "UploadTime=$(git log --date=format:'%Y-%m-%d %H:%M:%S' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
           echo "ModifyContent=$(awk 'BEGIN{ORS="\\\\n"}{print NR ": " $0}' apk/${{ matrix.repoName }}.log)" >> $GITHUB_ENV
-          echo "ApkMd5=$(md5sum apk/${{ matrix.repoName }}-normal.apk | awk '{ print $1 }')" >> $GITHUB_ENV
-          echo "ApkSize=$(ls -l --block-size=K apk/${{ matrix.repoName }}-normal.apk | awk '{ print $5 }'|grep -o '[0-9]\+')" >> $GITHUB_ENV
+          echo "ApkMd5=$(md5sum apk/${{ matrix.repoName }}-java.apk | awk '{ print $1 }')" >> $GITHUB_ENV
+          echo "ApkSize=$(ls -l --block-size=K apk/${{ matrix.repoName }}-java.apk | awk '{ print $5 }'|grep -o '[0-9]\+')" >> $GITHUB_ENV
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
         if: ${{ env.commit }}
