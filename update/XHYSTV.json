@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250308,
-  "VersionName": "250308",
-  "UploadTime": "2025-03-27 16:26:45",
-  "ModifyContent": "1: 独立py和java打包版本\n",
+  "VersionCode": 250404,
+  "VersionName": "250404",
+  "UploadTime": "2025-04-05 08:56:41",
+  "ModifyContent": "1: 添加网络背景图\n2: # Conflicts:\n3: #	app/build.gradle\n4: fix bug\n5: 优化详情集数过多时的光标合理性\n6: fix详情多源切换时焦点问题\n7: fix python bug\n8: fix bug\n9: fix 重试;\n10: 尝试解决jar频繁提示加载失败;\n11: fix搜索界面软键盘的问题;\n12: 直播源加载优化;\n13: fix bug\n14: # Conflicts:\n15: #	app/build.gradle\n16: 遥控上键直接定位到片头;\n17: 修正详情及解析列表焦点问题;\n18: 独立py和java打包版本\n19: # Conflicts:\n20: #	app/src/main/java/com/github/tvbox/osc/ui/activity/HomeActivity.java\n21: 主页加载数据时可按返回键取消加载(避免等待);\n22: 微调\n23: 恢复备份时自动重启;\n24: 优化电视遥控快进快退逻辑 更符合预期;\n25: 修正偶现的再按一次退出app不生效的问题;\n26: Update build.gradle\n27: 再次完善python;\n28: 解决直播地址配置时未及时生效的bug;\n29: （以后更新随缘）\n30: py完善\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-normal.apk",
-  "ApkSize": 19019,
-  "ApkMd5": "50e836fc3966a34898c482697a76acc8"
+  "ApkSize": ,
+  "ApkMd5": ""
 }
