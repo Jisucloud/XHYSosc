@@ -1,6 +1,6 @@
 {
-  "code": "344",
-  "name": "3.4.4",
-  "desc": "1: Update build.gradle\n2: Fix again\n3: Add checkOrientation to home\n4: Fix bug\n",
+  "code": "349",
+  "name": "3.4.9",
+  "desc": "1: Update build.gradle\n2: Add danmaku log\n3: Fix bug\n4: Fix event bug\n5: Fix danmaku size init\n6: Clean code\n7: Fix bug\n8: Fix ui\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
