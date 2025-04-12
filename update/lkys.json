@@ -1,6 +1,6 @@
 {
-  "code": "337",
-  "name": "3.3.7",
-  "desc": "1: Fix build\n2: Update build.gradle\n3: Use static id\n4: Fix track dialog ui\n5: Add libass - part 4\n6: Add libass - part 3\n7: Add libass - part 2\n8: Add libass\n9: Fix build\n10: Revert "Remove mipmap-anydpi"\n11: This reverts commit d97fa89cc468f2ae9efff78d5f65dc36e39f12f4.\n12: Clean code\n13: Remove mdpi\n14: Remove mipmap-anydpi\n15: Fix bug\n16: Fix python proxy with header\n17: Support expand director\n18: Fix crash\n19: Fix cast bug\n",
+  "code": "349",
+  "name": "3.4.9",
+  "desc": "1: 修改包名\n2: # Conflicts:\n3: #	app/src/leanback/java/com/fongmi/android/tv/Updater.java\n4: #	app/src/mobile/java/com/fongmi/android/tv/Updater.java\n5: Update build.gradle\n6: Add danmaku log\n7: Fix bug\n8: Fix event bug\n9: Fix danmaku size init\n10: Clean code\n11: Fix bug\n12: Fix ui\n13: Fix again\n14: Add checkOrientation to home\n15: Fix bug\n16: Update README.md\n17: Update build.gradle\n18: Support hide site\n19: Fix screen width and height bug\n20: Fix bug\n21: Fix video size when use libass\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
