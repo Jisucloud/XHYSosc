@@ -1,6 +1,6 @@
 {
-  "code": "349",
-  "name": "3.4.9",
-  "desc": "1: Update build.gradle\n2: Add danmaku log\n3: Fix bug\n4: Fix event bug\n5: Fix danmaku size init\n6: Clean code\n7: Fix bug\n8: Fix ui\n",
+  "code": "360",
+  "name": "3.6.0",
+  "desc": "1: Update build.gradle\n2: Clean code\n3: Fix crash\n4: Remove lock\n5: Fix bug\n6: Fix avif and gif\n7: Fix bug\n8: Fix crash\n9: Fix bug\n10: Update README.md\n11: Signed-off-by: FongMi <b8892778@gmail.com>\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
