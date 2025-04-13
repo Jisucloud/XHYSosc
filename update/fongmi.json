@@ -1,6 +1,6 @@
 {
-  "code": "360",
-  "name": "3.6.0",
-  "desc": "1: Update build.gradle\n2: Clean code\n3: Fix crash\n4: Remove lock\n5: Fix bug\n6: Fix avif and gif\n7: Fix bug\n8: Fix crash\n9: Fix bug\n10: Update README.md\n11: Signed-off-by: FongMi <b8892778@gmail.com>\n",
+  "code": "362",
+  "name": "3.6.2",
+  "desc": "1: # Conflicts:\n2: #	app/build.gradle\n3: Clean code\n4: Update build.gradle\n5: Fix build\n6: Update gradle\n7: Update Trans.java\n8: Update build.gradle\n9: Optimize proxy\n10: Update AndroidManifest.xml\n11: Update Core.java\n12: Fix m3u check\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
