@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250405,
   "VersionName": "250405",
-  "UploadTime": "2025-04-11 06:42:33",
-  "ModifyContent": "1: fix bug\n2: fix首页站点缓存\n3: fix上次提交引发的TV端筛选bug\n4: 优化超级解析(同时进行嗅探和并发json);\n5: 分类筛选点击空白处时隐藏\n6: 修正小窗播放时标题溢出\n7: fix HomeHots\n8: fix cornerRadius\n9: fix style 样式(ratio 0.764 默认竖图 1.333 4:3 1.777 横图)\n10: fix bug\n11: 优化t4 extend;\n12: 尝试兼容站点style配置\n13: Update proguard-rules\n14: Update proguard-rules.pro\n15: Add Nano proguard-rules\n16: fix ad\n17: optimize detail\n18: Update Proxy\n19: Add header and support response\n20: 分组焦点不可外移;\n21: 修正历史记录光标边框残留问题;\n22: 加载jar错误时立马加载上一次的缓存jar;\n23: 详情及播放页焦点问题再次优化;\n24: 解决类似海贼王超长剧集滚动目标集数失败的问题;\n25: 首页多行卡顿性能优化;\n26: 解决部分电影去广告误杀的问题;\n27: 片头可按遥控上下键微调;\n28: 尝试修正线路过多时因自动排序导致加载过慢的问题;\n",
+  "UploadTime": "2025-04-14 09:50:09",
+  "ModifyContent": "1: Update AboutDialog.java\n2: Update build.gradle\n3: Update AboutDialog.java\n4: 关于介面修改\n5: Update build.gradle\n6: 修改生成包名\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19024,
-  "ApkMd5": "9c1f73976122de6fc6e5598be3d375b9"
+  "ApkMd5": "dd6e72edf35bf3f3f51653956ca67207"
 }

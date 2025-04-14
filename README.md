@@ -23,7 +23,7 @@
 ## Credits
 This repo relies on the following third-party projects:
 - [xisohi/XHYSosc](https://github.com/xisohi/XHYSosc)
-- [xisohi/XHYSTV](https://github.com/xisohi/XHYSTV) (Updated: 6dfe0d8923eb915cd2c2c5a03daee2d40680c1b8)
+- [xisohi/XHYSTV](https://github.com/xisohi/XHYSTV) (Updated: 8e72c9c6eb6270bb77aeb140599c2c0d63cc9b90)
 - [xisohi/XHYS](https://github.com/xisohi/XHYS) (Updated: 82950e2a208f775f8cac60a0fbf9e6a1034ae6d0)
 - [xisohi/XHTV/tree/lkys](https://github.com/xisohi/XHTV/tree/lkys) (Updated: f1cc86794adc663966a6762b497943c1f5d31db6)
 - [xisohi/XHTV/tree/fongmi](https://github.com/xisohi/XHTV/tree/fongmi) (Updated: 7da29ad02330a700939c17546fb6769f0924262c)
