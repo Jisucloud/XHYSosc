@@ -1,6 +1,6 @@
 {
   "code": "362",
   "name": "3.6.2",
-  "desc": "1: Update README.md\n2: Clean code\n3: Update build.gradle\n4: Fix build\n5: Update gradle\n6: Update Trans.java\n7: Update build.gradle\n8: Optimize proxy\n9: Update AndroidManifest.xml\n10: Update Core.java\n11: Fix m3u check\n12: Update build.gradle\n13: Fix crash\n14: Remove lock\n15: Fix bug\n16: Fix avif and gif\n17: Fix bug\n18: Fix crash\n19: Fix bug\n20: Update README.md\n21: Signed-off-by: FongMi <b8892778@gmail.com>\n",
+  "desc": "1: 调整背景默认为网络图\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
