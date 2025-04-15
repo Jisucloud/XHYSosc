@@ -1,6 +1,6 @@
 {
   "code": "362",
   "name": "3.6.2",
-  "desc": "1: # Conflicts:\n2: #	app/build.gradle\n3: Clean code\n4: Update build.gradle\n5: Fix build\n6: Update gradle\n7: Update Trans.java\n8: Update build.gradle\n9: Optimize proxy\n10: Update AndroidManifest.xml\n11: Update Core.java\n12: Fix m3u check\n",
+  "desc": "1: Clean code\n2: Update README.md\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
