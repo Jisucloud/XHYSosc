@@ -187,8 +187,8 @@ jobs:
           echo "ModifyContent=$(awk 'BEGIN{ORS="\\\\n"}{print NR ": " $0}' apk/${{ matrix.repoName }}.log)" >> $GITHUB_ENV
           echo "ApkMd5=$(md5sum apk/${{ matrix.repoName }}-java.apk | awk '{ print $1 }')" >> $GITHUB_ENV
           echo "ApkSize=$(ls -l --block-size=K apk/${{ matrix.repoName }}-java.apk | awk '{ print $5 }'|grep -o '[0-9]\+')" >> $GITHUB_ENV
-          echo "pythonApkMd5=$(md5sum apk/${{ matrix.repoName }}-java.apk | awk '{ print $1 }')" >> $GITHUB_ENV
-          echo "pythonApkSize=$(ls -l --block-size=K apk/${{ matrix.repoName }}-java.apk | awk '{ print $5 }'|grep -o '[0-9]\+')" >> $GITHUB_ENV
+          echo "pythonApkMd5=$(md5sum apk/${{ matrix.repoName }}-python.apk | awk '{ print $1 }')" >> $GITHUB_ENV
+          echo "pythonApkSize=$(ls -l --block-size=K apk/${{ matrix.repoName }}-python.apk | awk '{ print $5 }'|grep -o '[0-9]\+')" >> $GITHUB_ENV
       - name: Release and Upload Assets
         uses: ncipollo/release-action@v1
         if: ${{ env.commit }}
