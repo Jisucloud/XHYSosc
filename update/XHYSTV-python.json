@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 210401,
-  "VersionName": "210401",
-  "UploadTime": "2025-04-15 22:29:48",
-  "ModifyContent": "1: update\n",
+  "VersionCode": 210402,
+  "VersionName": "210402",
+  "UploadTime": "2025-04-15 22:35:15",
+  "ModifyContent": "1: Update build.gradle\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTVA/XHYSTV-python.apk",
   "ApkSize": 30610,
-  "ApkMd5": "f0a9ef9eaf4033ee55d9bc69690ba4f7"
+  "ApkMd5": "45594991e729c852b45b2775ce46844e"
 }
