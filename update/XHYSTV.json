@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250405,
-  "VersionName": "250405",
-  "UploadTime": "2025-04-15 16:21:51",
-  "ModifyContent": "1: 修正详情分组焦点切换线路时的bug;\n2: fix bug;\n3: fix bug\n4: fix 退出应用\n5: fix 后台返回继续播放;\n6: fix 聚搜;\n7: fix bug\n8: fix bug;\n",
+  "VersionCode": 210405,
+  "VersionName": "210405",
+  "UploadTime": "2025-04-15 20:34:50",
+  "ModifyContent": "1: Update build.gradle\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19025,
-  "ApkMd5": "ed380a36bd96b286828a15cb7a3593a9"
+  "ApkMd5": "d9808b704316d45735ec8ddd2d446874"
 }
