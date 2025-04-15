@@ -194,7 +194,7 @@ jobs:
         if: ${{ env.commit }}
         with:
           name: ${{ matrix.repoName }}
-          tag: ${{ matrix.repoName }}
+          tag: ${{ matrix.repoName }}A
           bodyFile: XHYSosc/apk/${{ matrix.userName }}-Release.log
           allowUpdates: true
           removeArtifacts: true
