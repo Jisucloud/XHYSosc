@@ -6,7 +6,7 @@
   "VersionName": "250416",
   "UploadTime": "2025-04-16 15:50:25",
   "ModifyContent": "1: 添加启动检测更新\n2: 0411\n3: 0410\n4: 0409\n5: Update App.java\n6: 0408\n7: 0407\n8: Update build.gradle\n9: Update BaseActivity.java\n10: fix AdCounts;\n11: 开启app中的自动更新\n12: 打开启动后自动更新功能\n13: Update build.gradle\n14: 修改更新为启动时检查\n15: 新增简化去广告rules写法;\n16: 增加去除广告条数统计提示\n17: update\n18: 新福克斯\n",
-  "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTVA/XHYSTV-python.apk",
+  "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-python.apk",
   "ApkSize": 30611,
   "ApkMd5": "3f983824a35aec67c6febc26e1359678"
 }
