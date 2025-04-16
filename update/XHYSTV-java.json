@@ -5,7 +5,7 @@
   "VersionCode": 210406,
   "VersionName": "210406",
   "UploadTime": "2025-04-16 10:46:02",
-  "ModifyContent": "1: Update build.gradle\n2: Update BaseActivity.java\n3: fix AdCounts;\n4: 新增简化去广告rules写法{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["6.666667","6.566667","2.966667","2.433333","-2.266667"]} (正数代表移除第一次出现的切片组,负数代表最后一次出现的切片组);\n5: 增加去除广告条数统计提示\n",
+  "ModifyContent": "1: Update build.gradle\n2: Update BaseActivity.java\n3: fix AdCounts;\n4: 新增简化去广告rules写法\n5: 增加去除广告条数统计提示\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTVA/XHYSTV-java.apk",
   "ApkSize": 19025,
   "ApkMd5": "645ab77c0b5286f66f2c6b1b927c3e1d"
