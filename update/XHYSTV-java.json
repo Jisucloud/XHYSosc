@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 210409,
-  "VersionName": "210409",
-  "UploadTime": "2025-04-16 13:49:04",
-  "ModifyContent": "1: 0409\n",
+  "VersionCode": 210410,
+  "VersionName": "210410",
+  "UploadTime": "2025-04-16 14:19:52",
+  "ModifyContent": "1: 0410\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTVA/XHYSTV-java.apk",
-  "ApkSize": 19026,
-  "ApkMd5": "32cd21a2d5b4b87a806c7a0f6069217c"
+  "ApkSize": 19025,
+  "ApkMd5": "c4cafc8192c15e6ee74c3b87051bf736"
 }
