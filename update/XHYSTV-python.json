@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 210405,
-  "VersionName": "210405",
-  "UploadTime": "2025-04-16 00:17:48",
-  "ModifyContent": "1: 开启app中的自动更新\n",
+  "VersionCode": 210406,
+  "VersionName": "210406",
+  "UploadTime": "2025-04-16 10:46:02",
+  "ModifyContent": "1: Update build.gradle\n2: Update BaseActivity.java\n3: fix AdCounts;\n4: 新增简化去广告rules写法{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["6.666667","6.566667","2.966667","2.433333","-2.266667"]} (正数代表移除第一次出现的切片组,负数代表最后一次出现的切片组);\n5: 增加去除广告条数统计提示\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTVA/XHYSTV-python.apk",
-  "ApkSize": 30610,
-  "ApkMd5": "9785d27a9e5af2e62b2e92d70c838bb9"
+  "ApkSize": 30611,
+  "ApkMd5": "12a253f533bd4c41ae1882b089a7c5d9"
 }
