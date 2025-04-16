@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 220405,
-  "VersionName": "220405",
+  "VersionCode": 210405,
+  "VersionName": "210405",
   "UploadTime": "2025-04-15 20:34:50",
-  "ModifyContent": "1: Update build.gradle\n",
+  "ModifyContent": "1: 0411\n2: 0410\n3: 0409\n4: Update App.java\n5: 0408\n6: 0407\n7: Update build.gradle\n8: Update BaseActivity.java\n9: fix AdCounts;\n10: 开启app中的自动更新\n11: 打开启动后自动更新功能\n12: Update build.gradle\n13: 修改更新为启动时检查\n14: 新增简化去广告rules写法{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["6.666667","6.566667","2.966667","2.433333","-2.266667"]} (正数代表移除第一次出现的切片组,负数代表最后一次出现的切片组);\n15: 增加去除广告条数统计提示\n16: update\n17: 新福克斯\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19025,
-  "ApkMd5": "d9808b704316d45735ec8ddd2d446874"
+  "ApkMd5": "a5d8c740fc5057f164a21a30a62e66e4"
 }
