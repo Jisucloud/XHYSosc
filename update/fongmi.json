@@ -1,6 +1,6 @@
 {
-  "code": "362",
-  "name": "3.6.2",
-  "desc": "1: Clean code\n2: Update README.md\n",
+  "code": "365",
+  "name": "3.6.5",
+  "desc": "1: Clean code\n2: Update build.gradle\n3: Support parse tvg-id\n4: Support multiple display-name and icon\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
