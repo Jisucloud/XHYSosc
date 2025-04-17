@@ -26,6 +26,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 东南卫视,http://iptv.huuc.edu.cn/hls/dnhd.m3u8
 广东卫视,http://iptv.huuc.edu.cn/hls/gdhd.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
+河北卫视,http://iptv.huuc.edu.cn/hls/henhd.m3u8
 黑龙江卫视,http://iptv.huuc.edu.cn/hls/hljhd.m3u8
 湖北卫视,http://iptv.huuc.edu.cn/hls/hbhd.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
