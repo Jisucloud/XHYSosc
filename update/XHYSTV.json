@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 210405,
-  "VersionName": "210405",
-  "UploadTime": "2025-04-15 20:34:50",
-  "ModifyContent": "1: Update build.gradle\n2: 修正详情分组焦点切换线路时的bug;\n3: fix bug;\n4: fix bug\n5: fix 退出应用\n6: fix 后台返回继续播放;\n7: fix 聚搜;\n8: fix bug\n9: fix bug;\n",
+  "VersionCode": 250417,
+  "VersionName": "250417",
+  "UploadTime": "2025-04-16 20:17:23",
+  "ModifyContent": "1: Update build.gradle\n2: 修复已知BUG\n3: 添加启动检测更新\n4: 0411\n5: 0410\n6: 0409\n7: Update App.java\n8: 0408\n9: 0407\n10: Update build.gradle\n11: Update BaseActivity.java\n12: fix AdCounts;\n13: 开启app中的自动更新\n14: 打开启动后自动更新功能\n15: Update build.gradle\n16: 修改更新为启动时检查\n17: 新增简化去广告rules写法{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["6.666667","6.566667","2.966667","2.433333","-2.266667"]} (正数代表移除第一次出现的切片组,负数代表最后一次出现的切片组);\n18: 增加去除广告条数统计提示\n19: update\n20: 新福克斯\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19025,
-  "ApkMd5": "afaa8237047788f38784f4a8897cd6f9"
+  "ApkMd5": "f59f0e03614ec9b42c667313ec1f0eb8"
 }
