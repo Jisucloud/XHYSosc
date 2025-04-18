@@ -2,11 +2,11 @@
 
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYS.yml?branch=master&logo=github&label=XHYS)
+![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/lkys.yml?branch=master&logo=github&label=LKYS)
+![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHlive.yml?branch=master&logo=github&label=XHlive)
+![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHlive-kitkat.yml?branch=master&logo=github&label=XHlive-kitkat)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
-![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
-![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
-
 [![Channel](https://img.shields.io/badge/Follow-Gitee-blue.svg?logo=Gitee)](https://gitee.com/xisohi/XHYSosc/releases)
 [![Download](https://img.shields.io/github/v/release/xisohi/XHYSosc?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/xisohi/XHYSosc/releases/latest) 
 [![Total](https://shields.io/github/downloads/xisohi/XHYSosc/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/xisohi/XHYSosc/releases)
