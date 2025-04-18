@@ -1,7 +1,6 @@
 # XHYSosc
 
 [![Channel](https://img.shields.io/badge/Follow-Gitee-blue.svg?logo=Gitee)](https://gitee.com/xisohi/XHYSosc/releases)
-[![Download](https://img.shields.io/github/v/release/xisohi/XHYSosc?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/xisohi/XHYSosc/releases/latest) 
 [![Total](https://shields.io/github/downloads/xisohi/XHYSosc/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/xisohi/XHYSosc/releases)
 
 ## 版本说明
@@ -20,7 +19,6 @@
 |  XHTV-arm64_v8a  |                                   |                      Android 6.X                      |
 
 ## Credits
-![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYS.yml?branch=master&logo=github&label=XHYS)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/lkys.yml?branch=master&logo=github&label=LKYS)
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHlive.yml?branch=master&logo=github&label=XHlive)
@@ -29,6 +27,7 @@
 ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)
 This repo relies on the following third-party projects:
 - [xisohi/XHYSosc](https://github.com/xisohi/XHYSosc)
+- ![Build](https://shields.io/github/actions/workflow/status/xisohi/XHYSosc/XHYSTV.yml?branch=master&logo=github&label=XHYSTV)[![Download](https://img.shields.io/github/v/release/xisohi/XHYSosc?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/xisohi/XHYSosc/releases/latest)
 - [xisohi/XHYSTV](https://github.com/xisohi/XHYSTV) (Updated: b69b2f40c10ae258687b966a824298c6da63d945)
 - [xisohi/XHYS](https://github.com/xisohi/XHYS) (Updated: 82950e2a208f775f8cac60a0fbf9e6a1034ae6d0)
 - [xisohi/XHTV/tree/lkys](https://github.com/xisohi/XHTV/tree/lkys) (Updated: 8b099ce31338ff800f5deb07a1a7465faac1a0fe)
