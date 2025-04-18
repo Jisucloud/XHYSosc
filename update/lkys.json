@@ -1,6 +1,6 @@
 {
-  "code": "362",
-  "name": "3.6.2",
-  "desc": "1: 调整背景默认为网络图\n",
+  "code": "366",
+  "name": "3.6.6",
+  "desc": "1: Update README.md\n2: Update build.gradle\n3: Fix channel name replace\n4: Clean code\n5: Support parse tvg-id\n6: Support multiple display-name and icon\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
