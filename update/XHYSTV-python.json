@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250420,
   "VersionName": "250420",
-  "UploadTime": "2025-04-19 20:17:26",
-  "ModifyContent": "1: Update build.gradle\n2: 独立py和java打包版本\n",
+  "UploadTime": "2025-04-19 21:41:03",
+  "ModifyContent": "1: 修改包名\n2: Update build.gradle\n3: 独立py和java打包版本\n4: Update ApiConfig.java\n5: 优化默认js/lib文件加载;\n6: 优化广告规则切片匹配;\n7: fix bug\n8: 升级quikjs;\n9: 优化JsLoader;\n10: Update build.gradle\n11: 修复已知BUG\n12: 添加启动检测更新\n13: 0411\n14: 0410\n15: 0409\n16: Update App.java\n17: 0408\n18: 0407\n19: Update build.gradle\n20: Update BaseActivity.java\n21: 开启app中的自动更新\n22: 打开启动后自动更新功能\n23: Update build.gradle\n24: 修改更新为启动时检查\n25: update\n26: 新福克斯\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-python.apk",
   "ApkSize": 31222,
-  "ApkMd5": "432801ee095ee26a8cb885cfb600b27c"
+  "ApkMd5": "3ce26d11374d4866d96cdcf15a5f34ad"
 }
