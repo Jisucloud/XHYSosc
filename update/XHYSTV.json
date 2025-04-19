@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250419,
-  "VersionName": "250419",
-  "UploadTime": "2025-04-19 08:27:29",
-  "ModifyContent": "1: Update ApiConfig.java\n2: 独立py和java打包版本\n3: 优化默认js/lib文件加载;\n4: 优化广告规则切片匹配;\n5: fix bug\n6: 升级quikjs;\n7: 优化JsLoader;\n",
+  "VersionCode": 250415,
+  "VersionName": "250415",
+  "UploadTime": "2025-04-19 21:29:33",
+  "ModifyContent": "1: Update build.gradle\n2: 独立py和java打包版本\n3: Update ApiConfig.java\n4: 优化默认js/lib文件加载;\n5: 优化广告规则切片匹配;\n6: fix bug\n7: 升级quikjs;\n8: 优化JsLoader;\n9: Update build.gradle\n10: 修复已知BUG\n11: 添加启动检测更新\n12: 0411\n13: 0410\n14: 0409\n15: Update App.java\n16: 0408\n17: 0407\n18: Update build.gradle\n19: Update BaseActivity.java\n20: 开启app中的自动更新\n21: 打开启动后自动更新功能\n22: Update build.gradle\n23: 修改更新为启动时检查\n24: update\n25: 新福克斯\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
-  "ApkSize": 19639,
-  "ApkMd5": "aa2fa0a93001961e6d706052e68af629"
+  "ApkSize": 19025,
+  "ApkMd5": "084fb7048c87bbbfa92b8d97fc359df9"
 }
