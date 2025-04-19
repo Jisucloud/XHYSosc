@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250419,
-  "VersionName": "250419",
-  "UploadTime": "2025-04-19 08:27:29",
-  "ModifyContent": "1: Update ApiConfig.java\n2: 独立py和java打包版本\n3: 优化默认js/lib文件加载;\n4: 优化广告规则切片匹配;\n5: fix bug\n6: 升级quikjs;\n7: 优化JsLoader;\n",
+  "VersionCode": 250420,
+  "VersionName": "250420",
+  "UploadTime": "2025-04-19 20:17:26",
+  "ModifyContent": "1: Update build.gradle\n2: 独立py和java打包版本\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19639,
-  "ApkMd5": "aa2fa0a93001961e6d706052e68af629"
+  "ApkMd5": "52a60c1cc7382bd44ccc0a51f4f7bd02"
 }
