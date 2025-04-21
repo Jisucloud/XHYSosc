@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 250420,
   "VersionName": "250420",
-  "UploadTime": "2025-04-19 23:51:53",
-  "ModifyContent": "1: Update ApiConfig.java\n2: Update build.gradle\n3: 修改包名\n4: 独立py和java打包版本\n",
+  "UploadTime": "2025-04-20 20:18:23",
+  "ModifyContent": "1: 详情页显示实际播放地址;\n2: fix t4;\n3: fix 指定直播playerType的bug;\n4: fix js模块加载问题;\n5: 解决部分drpy遗留问题;\n6: fix\n7: 规则rules配置兼容script{"name": "剧圈圈","hosts": ["jqqzx"],"script": ["document.getElementById(playleft).children[0].contentWindow.document.getElementById(start).click()"]}\n8: 优化搜索历史;\n9: 优化\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
-  "ApkSize": 19639,
-  "ApkMd5": "d99e6cda1bffabed6d94acdf5c1a8d57"
+  "ApkSize": 19640,
+  "ApkMd5": "2314a260cca80fdc34c427b191aee572"
 }
