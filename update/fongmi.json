@@ -1,6 +1,6 @@
 {
-  "code": "367",
-  "name": "3.6.7",
-  "desc": "1: Update build.gradle\n2: Clean code\n3: Fix bug\n4: Update README.md\n5: Update build.gradle\n6: Fix channel name replace\n",
+  "code": "371",
+  "name": "3.7.1",
+  "desc": "1: Update build.gradle\n2: Fix npe\n3: Revert "Clean code"\n4: This reverts commit 3a585ad0e8da23e829a892191dc467def734625a.\n5: Clean code\n6: Fix bug\n7: Remove back buffer\n8: Bypass virtual nif\n9: README.md\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
