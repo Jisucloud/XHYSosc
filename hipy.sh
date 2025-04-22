@@ -329,7 +329,7 @@ replace_domain() {
 check_depend
 
 docker network rm hipy-network 2>/dev/null
-
+# 设置安装目录和服务器IP地址
 ips=`local_ips`
 hipy_path='/www/wwwroot/hipy'
 api_domain='http://60.205.202.247:5707/'
