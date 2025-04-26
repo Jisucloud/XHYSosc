@@ -60,7 +60,7 @@ jobs:
           git clone ${{ env.upStream }} XHYSosc
           cd XHYSosc
           git checkout ${{ env.commit }}
-          echo "tag=$(git log --date=format:'%Y%m%d-%H%M' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
+          echo "tag=$(git log --date=format:'%y%m%d' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
       - name: Extra Modify
         if: ${{ env.commit }}
         working-directory: XHYSosc
@@ -71,6 +71,7 @@ jobs:
           else
             sed -i "/jitpack.io/a\        maven { url 'https://o0halflife0o.github.io/crosswalk/releases/crosswalk/android/maven2' }" build.gradle
           fi
+
       - name: Compress Source Code
         if: ${{ env.commit }}
         working-directory: XHYSosc
@@ -108,6 +109,11 @@ jobs:
           #添加arm64支持，不支持ijk解码
           sed -i "/armeabi-v7a[\'\"]$/s#\$#, 'arm64-v8a'#" app/build.gradle
           sed -i "/armeabi-v7a[\'\"]$/s#\$#, 'arm64-v8a'#" player/build.gradle
+          # 设置 versionCode
+          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle
+          # 设置 versionName
+          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle
+
       - name: Release Apk Sign
         if: ${{ env.commit }}
         working-directory: XHYSosc
