@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250420,
-  "VersionName": "250420",
-  "UploadTime": "2025-04-20 20:18:23",
-  "ModifyContent": "1: 详情页显示实际播放地址;\n2: fix t4;\n3: fix 指定直播playerType的bug;\n4: fix js模块加载问题;\n5: 解决部分drpy遗留问题;\n6: fix\n",
+  "VersionCode": 1,
+  "VersionName": "1",
+  "UploadTime": "2025-04-26 08:46:36",
+  "ModifyContent": "1: Update build.gradle\n2: fix bug;\n3: exo支持音轨切换\n4: 优化屏显样式;\n5: 解决部分盒子不能正常筛选分类的问题;\n",
   "DownloadUrl": "http://gh.xisohi.dpdns.org/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
-  "ApkSize": 19640,
-  "ApkMd5": "af166682b3a08fad64ab215478518fd8"
+  "ApkSize": 19643,
+  "ApkMd5": "3240b83a467c1fa55de30e4f4e5beb3a"
 }
