@@ -102,13 +102,10 @@ jobs:
         working-directory: XHYSosc
         run: echo "" > local.properties
 
-      - name: Option For Test
-        if: ${{ inputs.testOption }}
+      - name: Set versionCode and versionName
+        if: ${{ env.commit }}
         working-directory: XHYSosc
         run: |
-          #添加arm64支持，不支持ijk解码
-          sed -i "/armeabi-v7a[\'\"]$/s#\$#, 'arm64-v8a'#" app/build.gradle
-          sed -i "/armeabi-v7a[\'\"]$/s#\$#, 'arm64-v8a'#" player/build.gradle
           # 设置 versionCode
           sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle
           # 设置 versionName
