@@ -106,16 +106,10 @@ jobs:
         if: ${{ env.commit }}
         working-directory: XHYSosc
         run: |
-          echo "Setting versionCode and versionName..."
-          echo "Current tag: ${{ env.tag }}"
-          echo "Current commit: ${{ env.commit }}"
-          echo "Current working directory: $(pwd)"
-          echo "Current build.gradle content:"
-          cat app/build.gradle
-
           # 设置 versionCode
-          sed "s/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g" app/build.gradle > app/build.gradle.tmp
-          cat app/build.gradle.tmp
+          sed -i 's/versionCode [0-9]*/versionCode ${{ env.tag }}/g' app/build.gradle
+          # 设置 versionName
+          sed -i 's/versionName "[^"]*"/versionName "${{ env.tag }}"/g' app/build.gradle
 
       - name: Release Apk Sign
         if: ${{ env.commit }}
