@@ -102,21 +102,21 @@ jobs:
         working-directory: XHYSosc
         run: echo "" > local.properties
 
-  - name: Set versionCode and versionName
-    if: ${{ env.commit }}
-    working-directory: XHYSosc
-    run: |
-      echo "Setting versionCode and versionName..."
-      echo "Current tag: ${{ env.tag }}"
-      echo "Current commit: ${{ env.commit }}"
-      # 设置 versionCode
-      sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle
-      echo "Updated versionCode in app/build.gradle"
-      cat app/build.gradle  # 输出文件内容以便调试
-      # 设置 versionName
-      sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle
-      echo "Updated versionName in app/build.gradle"
-      cat app/build.gradle  # 输出文件内容以便调试
+      - name: Set versionCode and versionName
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          echo "Setting versionCode and versionName..."
+          echo "Current tag: ${{ env.tag }}"
+          echo "Current commit: ${{ env.commit }}"
+          # 设置 versionCode
+          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle
+          echo "Updated versionCode in app/build.gradle"
+          cat app/build.gradle  # 输出文件内容以便调试
+          # 设置 versionName
+          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle
+          echo "Updated versionName in app/build.gradle"
+          cat app/build.gradle  # 输出文件内容以便调试
 
       - name: Release Apk Sign
         if: ${{ env.commit }}
