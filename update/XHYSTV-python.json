@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 1,
   "VersionName": "1",
-  "UploadTime": "2025-04-28 10:19:22",
+  "UploadTime": "2025-04-28 10:28:37",
   "ModifyContent": "1: Update build.gradle\n",
   "DownloadUrl": "http://gh.xisohi.dpdns.org/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-python.apk",
   "ApkSize": 31219,
-  "ApkMd5": "baa5121f7be9389a68e2318167c7c317"
+  "ApkMd5": "62973b306024638467be5404156f283f"
 }
