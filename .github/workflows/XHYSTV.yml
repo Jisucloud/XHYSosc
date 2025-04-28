@@ -114,12 +114,12 @@ jobs:
           cat app/build.gradle
 
           # 设置 versionCode
-          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle
+          sed -i "s|versionCode = [0-9]*|versionCode = ${{ env.tag }}|g" app/build.gradle
           echo "Updated versionCode in app/build.gradle"
           cat app/build.gradle  # 输出文件内容以便调试
 
           # 设置 versionName
-          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle
+          sed -i "s|versionName = \"[^\"]*\"|versionName = \"${{ env.tag }}\"|g" app/build.gradle
           echo "Updated versionName in app/build.gradle"
           cat app/build.gradle  # 输出文件内容以便调试
 
