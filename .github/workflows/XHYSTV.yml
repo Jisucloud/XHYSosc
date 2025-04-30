@@ -79,6 +79,15 @@ jobs:
           #zip -q -x ".git/*" -x  ".github/*" -r sourceCode-${{ env.commitS }}.zip .
           tar -cJf sourceCode-${{ env.commitS }}.tar.xz --exclude=.git --exclude=.github *
 
+      - name: Set versionCode and versionName
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          # 设置 versionCode
+          sed -i 's/versionCode [0-9]*/versionCode ${{ env.tag }}/g' app/build.gradle
+          # 设置 versionName
+          sed -i 's/versionName "[^"]*"/versionName "${{ env.tag }}"/g' app/build.gradle     
+
       - name: Setup Python
         if: ${{ env.commit }}
         uses: actions/setup-python@v5
@@ -101,15 +110,6 @@ jobs:
         if: ${{ env.commit }}
         working-directory: XHYSosc
         run: echo "" > local.properties
-
-      - name: Set versionCode and versionName
-        if: ${{ env.commit }}
-        working-directory: XHYSosc
-        run: |
-          # 设置 versionCode
-          sed -i 's/versionCode [0-9]*/versionCode ${{ env.tag }}/g' app/build.gradle
-          # 设置 versionName
-          sed -i 's/versionName "[^"]*"/versionName "${{ env.tag }}"/g' app/build.gradle
 
       - name: Release Apk Sign
         if: ${{ env.commit }}
