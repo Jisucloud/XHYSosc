@@ -53,7 +53,22 @@ jobs:
           git clone ${{ env.upStream }} XHYSosc
           cd XHYSosc
           git checkout ${{ env.commit }}
-          echo "tag=$(git log --date=format:'%y%m%d%H' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
+          echo "tag=$(git log --date=format:'%y%m%d' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
+
+      - name: Compress Source Code
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          tar -cJf sourceCode-${{ env.commitS }}.tar.xz --exclude=.git --exclude=.github *
+
+      - name: Set versionCode and versionName
+        if: ${{ env.commit }}
+        working-directory: XHYSosc
+        run: |
+          # 设置 versionCode
+          sed -i 's/versionCode = [^"]*/versionCode ${{ env.tag }}/g' app/build.gradle.kts
+          # 设置 versionName
+          sed -i 's/versionName = [^"]*/versionName "${{ env.tag }}"/g' app/build.gradle.kts   
 
       - name: Build Upgrade content
         if: ${{ env.commit }}
@@ -62,12 +77,6 @@ jobs:
           echo "VersionCode=$(grep -oP 'versionCode = \K\d+' app/build.gradle.kts)" >> $GITHUB_ENV
           echo "versionName=$(grep -oP 'versionName = \"\K[^\"]+' app/build.gradle.kts)" >> $GITHUB_ENV
 
-      - name: Compress Source Code
-        if: ${{ env.commit }}
-        working-directory: XHYSosc
-        run: |
-          tar -cJf sourceCode-${{ env.commitS }}.tar.xz --exclude=.git --exclude=.github *
-
       - name: set up JDK 21
         if: ${{ env.commit }}
         uses: actions/setup-java@v4
@@ -75,15 +84,6 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: 'gradle'
-
-        #      - name: Set versionCode and versionName
-        #        if: ${{ env.commit }}
-        #        working-directory: XHYSosc
-          #        run: |
-          # 设置 versionCode
-          #          sed -i 's/versionCode = [0-9]*/versionCode = ${{ env.tag }}/g' app/build.gradle.kts
-          # 设置 versionName
-      #          sed -i 's/versionName = "[^"]*"/versionName = "${{ env.tag }}"/g' app/build.gradle.kts
 
       - name: Build project
         if: ${{ env.commit }}
