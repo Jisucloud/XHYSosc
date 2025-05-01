@@ -2,11 +2,11 @@
   "Code": 0,
   "Msg": "新春快乐",
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
-  "VersionCode": 250430,
-  "VersionName": "250430",
-  "UploadTime": "2025-04-30 21:29:05",
-  "ModifyContent": "1: 修改关于中的版本号\n",
+  "VersionCode": 250501,
+  "VersionName": "250501",
+  "UploadTime": "2025-05-01 22:47:11",
+  "ModifyContent": "1: Update build.gradle\n",
   "DownloadUrl": "http://gh.xisohi.dpdns.org/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19642,
-  "ApkMd5": "5184d8b842530da017437dd679b32b88"
+  "ApkMd5": "8c2afbfbd50abc8504c06df1daabb281"
 }
