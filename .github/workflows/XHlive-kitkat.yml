@@ -61,14 +61,6 @@ jobs:
         run: |
           tar -cJf sourceCode-${{ env.commitS }}.tar.xz --exclude=.git --exclude=.github *
 
-      - name: set up JDK 21
-        if: ${{ env.commit }}
-        uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-          cache: 'gradle'
-
       - name: Set versionCode and versionName
         if: ${{ env.commit }}
         working-directory: XHYSosc
@@ -77,6 +69,14 @@ jobs:
           sed -i 's/versionCode = [^"]*/versionCode = ${{ env.tag }}/g' app/build.gradle.kts
           # 设置 versionName
           sed -i 's/versionName = [^"]*/versionName = "${{ env.tag }}"/g' app/build.gradle.kts
+
+      - name: set up JDK 21
+        if: ${{ env.commit }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: 'gradle'
 
       - name: Build project
         if: ${{ env.commit }}
