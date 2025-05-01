@@ -87,7 +87,7 @@ jobs:
           sed -i 's/versionCode [0-9]*/versionCode ${{ env.tag }}/g' app/build.gradle
           # 设置 versionName
           sed -i 's/versionName '[^']*'/versionName '${{ env.tag }}'/g' app/build.gradle  
-          cat app/build.gradle | grep versionName  # 验证结果
+          cat app/build.gradle
 
       - name: Setup Python
         if: ${{ env.commit }}
