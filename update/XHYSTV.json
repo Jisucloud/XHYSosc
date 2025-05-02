@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 1,
   "VersionName": "1",
-  "UploadTime": "2025-04-30 21:29:05",
-  "ModifyContent": "1: 修改关于中的版本号\n",
+  "UploadTime": "2025-05-01 22:47:11",
+  "ModifyContent": "1: Update build.gradle\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19642,
-  "ApkMd5": "3bfcc7fb1bd4efca0f5d5e151eb12270"
+  "ApkMd5": "98e873e2b930558a50ba2c08540329d9"
 }
