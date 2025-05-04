@@ -22,9 +22,9 @@
 ## 配置文件说明
 
 
-|                |                                   |                          说明                           |
-|----------------|:---------------------------------:|:-----------------------------------------------------:|
-{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
+|                                                  |                          说明                           |
+|-------------------------------------------------:|:-----------------------------------------------------:|
+| {"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},|searchable:搜索开关	（0:关闭 1:启用）    <br/>quickSearch:快速搜索（0:禁用 1:启用） <br/>filterable:首页可选（0:否 1:是） <br/>playerType:播放器类型（ 0:系统 1:IJK 2:EXO）    | 
 | 手机             |              mobile               |                                                       |
 | 爬蟲             |          java<br/>python          | java = jar + js 爬蟲     <br/>python = jar + js + py 爬蟲 |
 | 处理器            | armeabi_v7a<br/>arm64_v8a<br/>X86 | 第七代及以上的 ARM 处理器<br/>第8代、64位ARM处理器，目前手机大多数是此架构<br/>平板  |
