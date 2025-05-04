@@ -1,6 +1,6 @@
 {
-  "code": "380",
-  "name": "3.8.0",
-  "desc": "1: 修复已知bug\n2: # Conflicts:\n3: #	app/src/leanback/res/drawable/ic_banner.png\n4: Revert logo\n5: # Conflicts:\n6: #	app/build.gradle\n7: #	app/src/leanback/res/drawable/ic_banner.png\n8: #	app/src/main/java/com/fongmi/android/tv/player/exo/ExoUtil.java\n9: Update build.gradle\n10: Update icon\n11: Update build.gradle\n12: Clean code\n13: Fix bug\n14: Support 9978 too\n15: Add getPort for js\n16: Update README.md\n17: Signed-off-by: FongMi <b8892778@gmail.com>\n18: Update build.gradle\n19: Support proxt:// for sub\n20: Remove rtsp channel\n21: Adjust port\n22: Update get ip for dlna\n23: Update build.gradle\n24: Check parse and jx first when start media\n",
+  "code": "381",
+  "name": "3.8.1",
+  "desc": "1: Clean code\n2: Update build.gradle\n3: Fix bug\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
