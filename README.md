@@ -24,8 +24,7 @@
 
 |                |                                   |                          说明                           |
 |----------------|:---------------------------------:|:-----------------------------------------------------:|
-| 电		{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
-|
+{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 | 手机             |              mobile               |                                                       |
 | 爬蟲             |          java<br/>python          | java = jar + js 爬蟲     <br/>python = jar + js + py 爬蟲 |
 | 处理器            | armeabi_v7a<br/>arm64_v8a<br/>X86 | 第七代及以上的 ARM 处理器<br/>第8代、64位ARM处理器，目前手机大多数是此架构<br/>平板  |
