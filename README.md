@@ -19,6 +19,21 @@
 | XHTV-armeabi_v7a |                                   |                      Android 5.X                      |
 |  XHTV-arm64_v8a  |                                   |                      Android 6.X                      |
 
+## 配置文件说明
+
+
+|                |                                   |                          说明                           |
+|----------------|:---------------------------------:|:-----------------------------------------------------:|
+| 电		{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
+|
+| 手机             |              mobile               |                                                       |
+| 爬蟲             |          java<br/>python          | java = jar + js 爬蟲     <br/>python = jar + js + py 爬蟲 |
+| 处理器            | armeabi_v7a<br/>arm64_v8a<br/>X86 | 第七代及以上的 ARM 处理器<br/>第8代、64位ARM处理器，目前手机大多数是此架构<br/>平板  |
+| 专版             |        hisense<br/>generic        |                    海信电视专用<br/>通用版本                    |
+| XHYSTV         |                                   |                      Android 4.X                      |
+| XHYS           |                                   |                      Android 5.X                      |
+| XHTV-armeabi_v7a |                                   |                      Android 5.X                      |
+| XHTV-arm64_v8a |                                   |                      Android 6.X                      |
 ## Credits
 
 This repo relies on the following third-party projects:

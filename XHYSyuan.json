@@ -266,6 +266,16 @@
 			"type": 0,
 			"url": "https://xhys.lcjly.cn/live.txt",
 			"playerType": 1,                                 //播放器类型	        0:系统 1:IJK 2:EXO
+			"ua": "okhttp/3.15",
+			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+			"logo": "https://chinaiptv.pages.dev/logo/{name}.png"
+		},
+		{
+			"name": "安徽移动",
+			"type": 0,
+			"url": "https://chinaiptv.pages.dev/anhui/mobile.txt",
+			"playerType": 1,                                 //播放器类型	        0:系统 1:IJK 2:EXO
+			"ua": "okhttp/3.15",
 			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
 			"logo": "https://chinaiptv.pages.dev/logo/{name}.png"
 		}
