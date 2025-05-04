@@ -2,7 +2,6 @@
 	"spider": "./jar/fm.jar;md5;98e25197fce4b874343de7d40011de1d",
 	"wallpaper": "http://lcjly.cn/tupian",
 	"sites": [
-		//searchable:搜索开关	（0:关闭 1:启用） quickSearch:快速搜索（0:禁用 1:启用）  filterable:首页可选（0:否 1:是）	 playerType:播放器类型（ 0:系统 1:IJK 2:EXO）
 		{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_即看影视","name": "即看影视","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/即看影视.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_南瓜影视[优]","name": "🎃南瓜影视[优]","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"./js/南瓜影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
@@ -224,7 +223,6 @@
 		{"key": "drpy_js_小品网","name": "小品网","type": 3,"api": "./drpy_libs/drpy2.min.js","ext":"http://drpy.lcjly.cn/js/小品网.js","searchable": 2,"quickSearch": 0,"filterable": 1}
 	],
     "parses": [
-		//解析类型		        0:嗅探,自带播放器 1:解析,返回直链
 		{"name":"🌐Ⓤ","type":0,"url":"","header":{"User-Agent":"Mozilla/5.0"}},
 		{"name":"轮询","type":2,"url":"Sequence","header":{"User-Agent":"Mozilla/5.0"}},
 		{"name":"并发","type":2,"url":"Parallel","header":{"User-Agent":"Mozilla/5.0"}},
@@ -265,7 +263,7 @@
 			"name": "live",
 			"type": 0,
 			"url": "https://xhys.lcjly.cn/live.txt",
-			"playerType": 1,                                 //播放器类型	        0:系统 1:IJK 2:EXO
+			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
 			"logo": "https://chinaiptv.pages.dev/logo/{name}.png"
@@ -274,7 +272,7 @@
 			"name": "安徽移动",
 			"type": 0,
 			"url": "https://chinaiptv.pages.dev/anhui/mobile.txt",
-			"playerType": 1,                                 //播放器类型	        0:系统 1:IJK 2:EXO
+			"playerType": 1,
 			"ua": "okhttp/3.15",
 			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
 			"logo": "https://chinaiptv.pages.dev/logo/{name}.png"
