@@ -4,9 +4,9 @@
   "UpdateStatus": 3,//1、默认更新2、强制更新3、使用系统弹窗提示
   "VersionCode": 1,
   "VersionName": "1",
-  "UploadTime": "2025-05-01 22:47:11",
-  "ModifyContent": "1: Update build.gradle\n",
+  "UploadTime": "2025-05-13 19:43:57",
+  "ModifyContent": "1: 修正一处去广告的bug\n2: 修正部分源历史记录图片不显示的问题;\n3: fix style;\n4: fix style;fix 嗅探;\n5: 修正doh未生效的问题;\n6: 快进快退更激进;\n7: fix bug;\n8: 音轨记忆;\n9: 修正自动切换播放器失效;\n",
   "DownloadUrl": "https://gh.tvboxosc.filegear-sg.me/https://github.com/xisohi/XHYSosc/releases/download/XHYSTV/XHYSTV-java.apk",
   "ApkSize": 19642,
-  "ApkMd5": "98e873e2b930558a50ba2c08540329d9"
+  "ApkMd5": "53c1fd8fe3501dc24932e19fe3f0de38"
 }
