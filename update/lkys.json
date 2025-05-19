@@ -1,6 +1,6 @@
 {
-  "code": "387",
-  "name": "3.8.7",
-  "desc": "1: Update build.gradle\n2: Update VodConfig.java\n3: Update build.gradle\n4: Update VodConfig.java\n",
+  "code": "385",
+  "name": "3.8.5",
+  "desc": "1: Update VodConfig.java\n2: 调整\n3: 壁纸\n4: Update Config.java\n5: Update ConfigDialog.java\n6: 测试直播地址是否显示\n7: 隐藏壁纸地址\n8: Update VodConfig.java\n9: Update build.gradle\n10: 设置内置源\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
