@@ -1,6 +1,6 @@
 {
-  "code": "449",
-  "name": "4.4.9",
-  "desc": "1: Update BaseActivity.java\n2: 修改背景图获取方式\n3: 更换手机背景图\n",
+  "code": "459",
+  "name": "4.5.9",
+  "desc": "1: Update Updater.java\n2: Update settings.gradle\n3: up\n4: Update Github.java\n5: # Conflicts:\n6: #	app/src/leanback/java/com/fongmi/android/tv/Updater.java\n7: #	app/src/main/java/com/fongmi/android/tv/utils/Github.java\n8: #	app/src/mobile/java/com/fongmi/android/tv/Updater.java\n9: Update build.gradle\n10: Remove cookie jar\n11: Support hide live\n12: Update proguard-rules.pro\n13: Fix proguard\n14: Update gradle\n15: Update okhttp\n16: Update build.gradle\n17: Add glide clear\n18: Clean code\n19: Remove decode memory\n20: Optimize ui\n21: Use fontFeatureSettings\n22: Fix traffic\n23: Fix bug\n24: Fix crash\n25: Remove bold and shadow\n26: Fix bug\n27: Optimize history save\n28: Fix build\n29: Optimize history\n30: Revert\n31: Update\n32: Optimize session artwork\n33: Fix line bug\n34: Use palette\n35: Update to 16kb\n36: Fix bug\n37: Update path\n38: Update github path\n39: Clean update code\n40: Fix vod long click bug\n41: Fix name width\n42: Update build.gradle\n43: Optimize collect\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/lkys/{name}"
 }
