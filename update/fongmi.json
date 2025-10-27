@@ -1,6 +1,6 @@
 {
-  "code": "461",
-  "name": "4.6.1",
-  "desc": "1: Fix dialog height\n2: Update build.gradle\n3: Add swipe refresh for tv\n4: Support live can switch config\n5: Fix save bug\n6: Fix history bug\n7: Update settings.gradle\n8: Update Github.java\n9: # Conflicts:\n10: #	app/build.gradle\n11: #	app/src/main/java/com/fongmi/android/tv/utils/Github.java\n12: #	app/src/main/res/mipmap-hdpi/ic_launcher.webp\n13: #	app/src/main/res/mipmap-mdpi/ic_launcher.webp\n14: #	app/src/main/res/mipmap-xhdpi/ic_launcher.webp\n15: #	app/src/main/res/mipmap-xxhdpi/ic_launcher.webp\n16: #	app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp\n17: Fix bug\n18: Revert\n19: Fix history bug\n20: Remove crash\n21: Clean code\n22: Update build.gradle\n23: Add hash code\n24: Optimize vod list\n25: Optimize bean\n26: Remove cookie jar\n27: Support hide live\n28: Update proguard-rules.pro\n29: Fix proguard\n30: Update gradle\n31: Update okhttp\n32: Update build.gradle\n33: Add glide clear\n34: Remove decode memory\n35: Optimize ui\n36: Use fontFeatureSettings\n37: Fix traffic\n38: Fix bug\n39: Fix crash\n40: Remove bold and shadow\n41: Fix bug\n42: Optimize history save\n43: Fix build\n44: Optimize history\n45: Update\n46: Optimize session artwork\n47: Fix line bug\n48: Use palette\n49: Update to 16kb\n50: Fix bug\n51: Update path\n52: Update github path\n53: Clean update code\n54: Fix vod long click bug\n55: Fix name width\n56: Update build.gradle\n57: Optimize collect\n58: Clean code\n59: Update app icon\n60: Optimize video wall\n61: Fix icon\n62: Update build.gradle\n63: Optimize wallpaper load\n64: Clean\n65: Optimize large wallpaper\n66: Fix bug\n67: Optimize glide\n68: Add wall history\n",
+  "code": "463",
+  "name": "4.6.3",
+  "desc": "1: logo\n2: 更换LOGO\n3: Update build.gradle\n4: Clean code\n5: Optimize live\n",
   "apkurl": "https://ghfast.top/https://github.com/xisohi/XHYSosc/releases/download/fongmi/{name}"
 }
